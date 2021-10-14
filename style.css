@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    height: 60px;
+    background-color: rgb(78, 76, 76);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-family: "Roboto";
+}
+
+.nav a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.nav button {
+    background-color: rgb(64, 205, 224);
+    color: white;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+}
+
+.nav-title {
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    align-items: flex-end;
+}
